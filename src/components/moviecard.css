@@ -101,7 +101,7 @@
     gap: 0.7rem;
   }
   
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 600px) {
     .movie-list {
       display: grid;
       grid-template-rows: repeat(3, 1fr); /* Define 3 rows */

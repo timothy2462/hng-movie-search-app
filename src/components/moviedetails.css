@@ -107,13 +107,16 @@
   
   
   /* Add media query for screens with a maximum width of 760px */
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 600px) {
     
      .movie-details-page Sidebar{
       display: none;
      }
      .movie-details-container{
       flex-direction: column;
+      max-width: 22rem;
+      margin: 0 auto;
+      overflow-x: hidden;
      }
      
   .about-movie{
@@ -137,7 +140,7 @@
       font-size: 12px;
     }
     .movie-overview p{
-      width: 23rem;
+      width: 21rem;
       padding: 10px;
       margin-top: .7rem;
      
@@ -146,10 +149,15 @@
     .directors, .writters{
      
       padding: 10px;
-      gap: 3px;
+      gap: 5px;
+      /* border: 2px solid red; */
+      width: 20rem;
     }
-    .top-rated{
+    .top-rated p{
       padding: 12px;
+      width: 14rem;
+      font-size: 12;
+      font-weight: 500;
   
     }
   
@@ -158,13 +166,17 @@
     }
   
     .movie-poster img{
-      width: 300px;
+      width: 330px;
+     
+      
     }
   
   
    main .thriller{
-      width: 390px;
-      padding: 10px;
+      /* width: 390px; */
+    
+      max-width: 22rem;
+      overflow-x: hidden;
      
       
       

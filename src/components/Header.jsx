@@ -6,7 +6,7 @@ import MovieDescription from "./MovieDescription";
 const images = [
   "/bg-image-johnwick.jpg",
   "/bg-john-wick2.jpg",
-  "/bg-john-wick4.jpg",
+//   "/bg-john-wick4.jpg",
 ];
 const Header = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

@@ -81,7 +81,7 @@
   }
   
   /* media Querry for mobile screen */
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
     .search-bar {
       display: none;
     }

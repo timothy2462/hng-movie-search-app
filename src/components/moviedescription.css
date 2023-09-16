@@ -74,9 +74,9 @@
   }
   
   /* media querry for smaller screens */
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
     .movie-description {
-      margin-top: 1rem;
+      margin-top: 3rem;
       margin-left: 2rem;
     }
     .john-wick p {

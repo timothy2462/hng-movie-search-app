@@ -73,6 +73,7 @@ const MovieDetail = () => {
       fetchMovieCredits();
     }
   }, [id]);
+  const releaseYear = new Date(movieDetails.release_date).getFullYear()
 
   return (
     <section className="movie-details-page">
@@ -98,8 +99,8 @@ const MovieDetail = () => {
                 <div className="about-movie">
                   <h3 data-testid="movie-title">{movieDetails.title}</h3>
 
-                  <p data-testid="movie-release-date"> {movieDetails.release_date}</p>
-                  <p className="pg">PG-18</p>
+                  <p data-testid="movie-release-date"> {new Date(movieDetails.release_date).getFullYear()}</p>
+                  {/* <p className="pg">PG-18</p> */}
                   <p data-testid="movie-runtime"> {movieDetails.runtime}Mins</p>
                 </div>
                 <div className="action">
