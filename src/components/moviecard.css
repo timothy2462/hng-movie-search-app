@@ -1,0 +1,130 @@
+/* MovieList.css */
+.movieList-container {
+    margin-top: 2.5rem;
+  }
+  .movieCard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .movie-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .movie-card {
+    width: 200px;
+    padding: 20px;
+    position: relative;
+    transition: transform 0.6s ease;
+  }
+  .link {
+    text-decoration: none;
+  }
+  .movie-card:hover {
+    transform: translateY(-7px);
+  }
+  .love-icon {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    color: whitesmoke;
+    transition: color 0.3s ease;
+    z-index: 2;
+  }
+  
+  .love-icon.liked {
+    color: crimson;
+  }
+  
+  .featured-movies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 720px;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+  .featured-movies h2 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .see-more {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #be123c;
+  }
+  .see-more p {
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+  .movie-card .release {
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 14px;
+    font-weight: 700;
+  }
+  .movie-card p {
+    color: #9ca3af;
+  }
+  .movie-card h3 {
+    font-size: 0.8rem;
+    margin-bottom: 14px;
+  }
+  
+  .rating-movieCard {
+    display: flex;
+    width: 184px;
+    height: 17px;
+    gap: 1rem;
+  }
+  .imdb-movieCard {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+  }
+  .fruits-movieCard {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+  
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+  }
+  
+  @media screen and (max-width: 760px) {
+    .movie-list {
+      display: grid;
+      grid-template-rows: repeat(3, 1fr); /* Define 3 rows */
+      grid-template-columns: 1fr; /* Define a single column */
+      gap: 10px;
+    }
+    .movie-card {
+      width: 100%;
+      max-width: 300px;
+      padding: 20px;
+      margin: 0 auto;
+      padding: 0;
+    }
+    .movie-img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .featured-movies {
+      max-width: 320px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+  }
+  

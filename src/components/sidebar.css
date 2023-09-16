@@ -1,0 +1,112 @@
+aside {
+    width: 15%;
+    font-size: 11px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 0px 45px 45px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background: #fff;
+  }
+  .m-icon {
+    font-size: 15px;
+  }
+  .movies-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    width: 114px;
+  
+    margin-top: 0.5rem;
+  }
+  .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 114px;
+  }
+  .movies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 114px;
+    height: 50px;
+    font-weight: 700;
+    border-right: 3px solid crimson;
+    background: rgba(190, 18, 60, 0.1);
+    color: crimson;
+  }
+  .tv-series {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 114px;
+  }
+  .upcoming {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 114px;
+  }
+  .logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 114px;
+  
+    margin-bottom: 2rem;
+  }
+  
+  .play-movies {
+    width: 114px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .play-movies p {
+    margin-bottom: 0.5rem;
+  }
+  .play-movies-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    border-radius: 20px;
+    border: 1px solid rgba(190, 18, 60, 0.7);
+    background: rgba(248, 231, 235, 0.4);
+    height: 130px;
+    padding: 7px;
+  }
+  .thick-text {
+    font-weight: 700;
+    font-size: 10px;
+  }
+  .light-text {
+    font-weight: 500;
+    font-size: 10px;
+  }
+  .start-playing {
+    height: 25px;
+    border-radius: 30px;
+    background: rgba(190, 18, 60, 0.2);
+    font-size: 10px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 760px) {
+    aside {
+      display: none;
+    }
+  }
+  

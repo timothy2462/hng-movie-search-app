@@ -1,0 +1,175 @@
+.movie-details-page {
+    display: flex;
+   
+    justify-content: space-around;
+  
+    
+  }
+  .movie-details-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .about-movie-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  .about-movie {
+    display: flex;
+    width: 18rem;
+    align-items: center;
+    gap: 10px;
+  }
+  .about-movie h3 {
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+  .about-movie p {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .pg {
+    color: crimson;
+  }
+  .action {
+    display: flex;
+    gap: 10px;
+  
+    width: 9rem;
+  }
+  .action p {
+    width: 70px;
+    height: 16px;
+    color: #b91c1c;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #f8e7eb;
+    font-size: 10px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .movie-overview p {
+    width: 25rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+  .directors {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+    margin-bottom: 0.7rem;
+  }
+  .writters {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+    margin-bottom: 0.7rem;
+  }
+  .character {
+    color: #be123c;
+    font-weight: 500;
+  }
+  .top-rated {
+    width: 150px;
+    font-size: 13px;
+    height: 25px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #be123c;
+    color: white;
+  }
+  .movie-poster {
+    margin-top: 10px;
+  }
+  .thriller{
+      width: 620px;
+      height: auto;
+  }
+  iframe {
+    border-radius: 10px;
+    width: 100%;
+  }
+  img {
+    border-radius: 10px;
+  }
+  
+  
+  
+  
+  /* Add media query for screens with a maximum width of 760px */
+  @media screen and (max-width: 760px) {
+    
+     .movie-details-page Sidebar{
+      display: none;
+     }
+     .movie-details-container{
+      flex-direction: column;
+     }
+     
+  .about-movie{
+      width: 15rem;
+      padding: 10px;
+  
+  } 
+  .about-movie h3 {
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .about-movie p {
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .action{
+      padding: 10px;
+      
+    }
+    .action p{
+      font-size: 12px;
+    }
+    .movie-overview p{
+      width: 23rem;
+      padding: 10px;
+      margin-top: .7rem;
+     
+      margin-bottom: .7rem;
+    }
+    .directors, .writters{
+     
+      padding: 10px;
+      gap: 3px;
+    }
+    .top-rated{
+      padding: 12px;
+  
+    }
+  
+    .movie-poster{
+      padding: 10px;
+    }
+  
+    .movie-poster img{
+      width: 300px;
+    }
+  
+  
+   main .thriller{
+      width: 390px;
+      padding: 10px;
+     
+      
+      
+   }
+  
+    
+    }
+    

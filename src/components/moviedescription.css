@@ -1,0 +1,90 @@
+.movie-description {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+  }
+  .movie-title {
+    width: 300px;
+    height: 100px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-size: 1rem;
+  }
+  .rating {
+    display: flex;
+    width: 184px;
+    height: 17px;
+    gap: 1rem;
+    color: #fff;
+  }
+  .imdb {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    color: #fff;
+  }
+  .fruits {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px; /* 100% */
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    color: #fff;
+  }
+  .john-wick {
+    width: 320px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 128.571% */
+    color: #fff;
+  }
+  .watch-btn {
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+    padding: 4px;
+    gap: 8px;
+    border-radius: 5px;
+    background-color: #be123c;
+    width: 7.5rem;
+  }
+  .watch-btn button {
+    font-size: 10px;
+    background-color: #be123c;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .play-icon {
+    color: white;
+  }
+  
+  /* media querry for smaller screens */
+  @media screen and (max-width: 768px) {
+    .movie-description {
+      margin-top: 1rem;
+      margin-left: 2rem;
+    }
+    .john-wick p {
+      font-size: 14px;
+    }
+    .john-wick {
+      width: 250px;
+      font-size: 10px;
+    }
+  }
+  

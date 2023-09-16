@@ -1,0 +1,33 @@
+footer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 20rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .socials {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .conditions {
+    display: flex;
+    gap: 2rem;
+    font-size: 10px;
+    font-weight: 700;
+  }
+  .year {
+    font-size: 10px;
+    font-weight: 600;
+    color: #6b7280;
+  }
+  
