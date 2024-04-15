@@ -19,8 +19,8 @@ const MovieCard = ({ movie }) => {
             <img
               src={`https://image.tmdb.org/t/p/w342/${movie.poster_path}`}
               alt={movie.title}
-              width={170}
-              height={230}
+              width={260}
+              height={340}
               className="movie-img"
               data-testid="movie-poster"
             />
