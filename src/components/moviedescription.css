@@ -3,7 +3,7 @@
     flex-direction: column;
     gap: 16px;
     align-items: flex-start;
-    margin-top: 1.5rem;
+    margin-top: 10rem;
     margin-left: 3rem;
   }
   .movie-title {
@@ -45,10 +45,10 @@
   }
   .john-wick {
     width: 320px;
-    font-size: 12px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
-    line-height: 18px; /* 128.571% */
+    line-height: 25px; /* 128.571% */
     color: #fff;
   }
   .watch-btn {
@@ -59,10 +59,11 @@
     gap: 8px;
     border-radius: 5px;
     background-color: #be123c;
-    width: 7.5rem;
+    width: 9rem;
+    cursor: pointer;
   }
   .watch-btn button {
-    font-size: 10px;
+    font-size: 12px;
     background-color: #be123c;
     color: white;
     border: none;
