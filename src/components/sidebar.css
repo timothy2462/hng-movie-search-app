@@ -8,6 +8,7 @@ aside {
     border-radius: 0px 45px 45px 0px;
     border: 1px solid rgba(0, 0, 0, 0.3);
     background: #fff;
+    margin-left: 5rem;
   }
   .m-icon {
     font-size: 15px;

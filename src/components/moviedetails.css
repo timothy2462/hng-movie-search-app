@@ -1,11 +1,13 @@
 .movie-details-page {
     display: flex;
-   
+   margin-top: 1rem;
     /* justify-content: center; */
     gap: 5rem;
   
     
   }
+  
+ 
   .movie-details-container {
     display: flex;
     justify-content: space-around;
