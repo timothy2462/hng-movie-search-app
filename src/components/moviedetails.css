@@ -10,7 +10,8 @@
  
   .movie-details-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+
   }
   .about-movie-container {
     display: flex;
@@ -61,6 +62,7 @@
     margin-top: 1.2rem;
     margin-bottom: 1.2rem;
   }
+
   .directors {
     display: flex;
     align-items: center;
@@ -96,8 +98,6 @@
   }
   .thriller{
       width: 900px;
-      /* height: 800px; */
-      border: 2px solid red;
   }
   iframe {
     border-radius: 10px;
