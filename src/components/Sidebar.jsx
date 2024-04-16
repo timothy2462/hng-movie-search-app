@@ -10,23 +10,23 @@ const Sidebar = () => {
   return (
     <aside>
       <div className="movies-box">
-        <img src={"/images/tv-icon.png"} width={20} />
+        <img src={"/images/tv-icon.png"} width={30} />
         <h3>Movie box</h3>
       </div>
       <div className="home">
-        <AiOutlineHome className="m-icon" />
+        <AiOutlineHome className="m-icon"size={30} />
         <p>Home</p>
       </div>
       <div className="movies">
-        <BiCameraMovie className="m-icon" />
+        <BiCameraMovie className="m-icon" size={30}/>
         <p>Movies</p>
       </div>
       <div className="tv-series">
-        <PiTelevisionSimpleBold className="m-icon" />
+        <PiTelevisionSimpleBold className="m-icon" size={30} />
         <p>TV Series</p>
       </div>
       <div className="upcoming">
-        <ImCalendar className="m-icon" size={13} />
+        <ImCalendar className="m-icon" size={25} />
         <p>Upcoming</p>
       </div>
       <div className="play-movies">
@@ -39,7 +39,7 @@ const Sidebar = () => {
         </div>
       </div>
       <div className="logout">
-        <BiLogIn className="m-icon" />
+        <BiLogIn className="m-icon" size={20} />
         <p>Log Out</p>
       </div>
     </aside>
