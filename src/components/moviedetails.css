@@ -95,12 +95,14 @@
     margin-top: 10px;
   }
   .thriller{
-      width: 620px;
-      height: auto;
+      width: 900px;
+      /* height: 800px; */
+      border: 2px solid red;
   }
   iframe {
     border-radius: 10px;
     width: 100%;
+    height: 500px;
   }
   img {
     border-radius: 10px;

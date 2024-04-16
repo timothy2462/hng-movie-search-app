@@ -82,7 +82,7 @@ const MovieDetail = () => {
         {movieVideos.length > 0 && (
           <div className="thriller">
             <iframe
-              // width="620"
+              // width="800"
               height="314"
               src={`https://www.youtube.com/embed/${movieVideos[0].key}?autoplay=1&rel=0`}
               title="Movie Trailer"
