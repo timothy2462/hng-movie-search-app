@@ -105,7 +105,7 @@ const MovieDetail = () => {
                 </div>
                 <div className="action">
                   <p>Action</p>
-                  <p>Drama</p>
+                  <p>Thriller</p>
                 </div>
               </div>
               <div className="movie-overview">
